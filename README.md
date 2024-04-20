@@ -1,4 +1,9 @@
 > ```
+> git add README.md //添加README.md
+> git commit -m "add readme three" //添加提交内容
+> git branch -M main //添加到的分支
+> git push -u origin main //上传添加修改的文件 填写账号名和个人令牌
+> 
 > git status //状态查看
 > git add . //追踪
 > git config -l //配置查看
