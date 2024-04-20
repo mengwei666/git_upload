@@ -1,3 +1,18 @@
+> git status //状态查看
+> git add . //追踪
+> git config -l //配置查看
+> git config --unset XXX //取消某些配置
+> git commit -m "xxx" // 提交
+> git push -u 名称 分支 //上传
+> git log --oneline --decorate --graph --all //查看分支结构
+> git branch -d xxx //删除本地分支
+> git checkout xxx //切换分支
+> git checkout -b xxx //新建本地分支
+> git merge --no-ff xxx //不采用快照ff模式，合并到xxx位置
+> git pull --rebase //将远端仓库的修改和本地的修改进行合并形成最新的提交
+> git push origin xxx //建好本地分支后，在输入该指令建立远程分支
+> git push origin ：xxx //删除远程分支但是不会删除本地分支
+>
 > # 1.启动clash翻墙
 >
 > 在.config/mihomo 文件夹中启动
